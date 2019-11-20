@@ -76,8 +76,8 @@ app.post('/send', function (req, res) {
         port: 465,
         secure: true,
         auth: {
-            user: 'syedasad0@gmail.com', //Gmail username
-            pass: 'blackhathacker' // Gmail password
+            user: '*******@gmail.com', //Gmail username
+            pass: '******' // Gmail password
         },
         tls:{
             rejectUnauthorized: false
@@ -85,7 +85,7 @@ app.post('/send', function (req, res) {
     });
     let mailOptions = {
         from: ' "Nodemailer Contact" <syedasad0@gmail.com> ',
-        to: 'kan.joshi.11@gmail.com',
+        to: '*******@gmail.com',
         subject: 'Node Contact Request',
         text: 'Kahin Main Samay Toh Nahin?',
         html: output
